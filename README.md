@@ -23,7 +23,7 @@ Branch which will be deployed. *Default: master*
 
 ## Example usage
 ```
-uses: AlexxNB/caprover-action@v1
+uses: clickiwoo/caprover-action@v1
 with:
   server: 'https://captain.root.domain.com'
   password: '${{ secrets.CAPROVER_PASSWORD }}'

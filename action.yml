@@ -1,6 +1,6 @@
-name: 'CapRover Deploy'
+name: 'CapRover Clickiwoo Deploy'
 description: 'Action to deploy on Caprover server'
-author: 'Graham Davies'
+author: 'Clickiwoo'
 branding:
   icon: upload-cloud
   color: orange

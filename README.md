@@ -1,6 +1,11 @@
 # caprover-action
 Action to deploy on Caprover server.
 
+## Building
+```
+docker build -f ./Dockerfile -t ghcr.io/clickiwoo/caprover-action:v1 .
+docker push ghcr.io/clickiwoo/caprover-action:v1
+```
 
 ## Inputs
 

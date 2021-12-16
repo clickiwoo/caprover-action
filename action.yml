@@ -35,7 +35,7 @@ runs:
       with:
         context: .
         push: true
-        tags: ${{ github.repository_owner }}/${{ inputs.app }}:$GITHUB_SHA
+        tags: ${{ github.repository_owner }}/${{ inputs.app }}:${{ github.sha }}
         cache-from: type=gha
         cache-to: type=gha,mode=max
 

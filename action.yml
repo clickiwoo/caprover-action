@@ -21,7 +21,7 @@ runs:
   using: composite
   steps:
     - run: |
-        export REPO=$(echo '${{ github.repository.owner }}/${{ inputs.app }}' | tr '[:upper:]' '[:lower:]')
+        export REPO=$(echo '${{ github.repository_owner }}/${{ inputs.app }}' | tr '[:upper:]' '[:lower:]')
         export REGISTRY_USER=${{ github.actor }}
         export REGISTRY_PASSWORD=${{ inputs.token }}
         export REGISTRY_URL="ghcr.io"

@@ -52,9 +52,9 @@ jobs:
     steps:
       # Checking out to the correct repo is required  
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Deploy to Caprover
-        uses: clickiwoo/caprover-deploy@v2
+        uses: clickiwoo/caprover-deploy@v4
         with:
           token: ${{secrets.GITHUB_TOKEN}}
           server: "https://captain.example.com"
